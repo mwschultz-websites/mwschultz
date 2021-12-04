@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://example.org/blog/</loc>
+    <lastmod>2021-12-04T13:30:41-05:00</lastmod>
+  </url><url>
+    <loc>http://example.org/</loc>
+    <lastmod>2021-12-04T13:30:41-05:00</lastmod>
+  </url><url>
+    <loc>http://example.org/if-by-rudyard-kipling/</loc>
+    <lastmod>2021-12-04T13:30:41-05:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/life/</loc>
+    <lastmod>2021-12-04T13:30:41-05:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/poetry/</loc>
+    <lastmod>2021-12-04T13:30:41-05:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/</loc>
+    <lastmod>2021-12-04T13:30:41-05:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/trees/</loc>
+    <lastmod>2019-01-13T20:28:42-06:00</lastmod>
+  </url><url>
+    <loc>http://example.org/trees-by-joyce-kilmer/</loc>
+    <lastmod>2019-01-13T20:28:42-06:00</lastmod>
+  </url><url>
+    <loc>http://example.org/that-it-will-never-come-again-by-emily-dickinson/</loc>
+    <lastmod>2019-01-12T23:24:54-06:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/time/</loc>
+    <lastmod>2019-01-12T23:24:54-06:00</lastmod>
+  </url>
+</urlset>
