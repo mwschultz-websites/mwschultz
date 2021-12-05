@@ -1,14 +1,41 @@
 [
   {
-    "name": "North Carolina State University - Enterprise Application Services",
+    "title": "Developer", 
+    "organization": "North Carolina State University - Enterprise Application Services",
     "link": "https://oit.ncsu.edu/about/units/eas/",
-    "dates": "June 2018 - Current",
-    "bullet_points": ["Did ETL work", "Did integrations"]
+    "dates": "June 2020 - Current",
+    "bullet_points": ["Use PHP and Javascript with jQuery to develop custom enhancements and integrations for the university's centralized research data management system",
+   "Set up ETL pipelines for enterprise data management using SAS Data Integration Studio"]
   },
   {
-    "name": "Duke University",
-    "link": "http://fontawesome.io/",
-    "dates": "June 2015 - June 2018",
-    "bullet_points": ["Did ETL work", "Did integrations"]
-  }
+    "title": "Developer", 
+    "organization": "Duke University School of Medicine, Office of Information Systems",
+    "link": "https://medschool.duke.edu/research/research-support/research-support-offices/oasis",
+    "dates": "July 2018 - June 2020",
+    "bullet_points": ["Built web services using Ruby on Rails for data sources from multiple Duke systems, inlcuding clinical trials, research finance, and conflict of interest", 
+      "Developed enhancements for Duke's proposal development/submission and award management applications, and MyResearchHome, a centralized web portal for the Duke research community"]
+  },
+  {
+   "title": "Report Writer / Data Analyst", 
+   "organization": "Duke University School of Medicine, Office of Information Systems",
+   "link": "https://medschool.duke.edu/research/research-support/research-support-offices/oasis",
+   "dates": "June 2015 - July 2018",
+   "bullet_points": ["Collected user requirements and built reports and dashboards in Tableau, Business Objects, and Jasper Reports to track analytics across the Duke University Health System", 
+      "Served as technical lead on the successful, multi-year migration of existing enrollment data out of Duke's Epic instance and into a single clinical trial management application"]
+ },
+ {
+   "title": "Business Analyst", 
+   "organization": "SBG Technology Solutions",
+   "link": "https://sbgts.com/",
+   "dates": "December 2012 - June 2015",
+   "bullet_points": ["Assisted project managers in directing multiple healthcare IT projects supporting the Department of Veterans Affairs"]
+ },
+ {
+   "title": "Research Associate", 
+   "organization": "TransAnalytics",
+   "link": "https://transanalytics.com/",
+   "dates": "December 2010 - June 2012",
+   "bullet_points": ["Developed and maintained interfaces, queries, and reports in Access and Excel for analyzing traffic fatalities from a nationwide database"]
+ }
+
 ]

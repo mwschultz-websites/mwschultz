@@ -4,7 +4,7 @@
     {{ range $.Site.Data.experience }}
     <ul>
       <li class="list-inline-item">
-        <a href="{{.link}}">{{ .name }}</a>
+        {{ .title }}, <a href="{{.link}}">{{ .organization }}</a>
         <ul>
           <li>{{ .dates }}</li>
           {{  range .bullet_points}}
