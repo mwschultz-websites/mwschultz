@@ -1,12 +1,14 @@
 [
   {
     "name": "North Carolina State University - Enterprise Application Services",
-    "link": "https://hexo.io/https://oit.ncsu.edu/about/units/eas/", 
-    "bullet_one": "Did ETL work"
+    "link": "https://oit.ncsu.edu/about/units/eas/",
+    "dates": "June 2018 - Current",
+    "bullet_points": ["Did ETL work", "Did integrations"]
   },
   {
     "name": "Duke University",
     "link": "http://fontawesome.io/",
-    "bullet_one": "Did Ruby work"
+    "dates": "June 2015 - June 2018",
+    "bullet_points": ["Did ETL work", "Did integrations"]
   }
 ]

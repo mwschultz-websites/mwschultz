@@ -6,9 +6,12 @@
       <li class="list-inline-item">
         <a href="{{.link}}">{{ .name }}</a>
         <ul>
-            <li>
-                {{ .bullet_one }}
-            </li>
+          <li>{{ .dates }}</li>
+          {{  range .bullet_points}}
+          <ul>
+            <li>{{ . }}</li>
+          </ul>
+          {{ end }}
         </ul>
       </li>
     </ul>
