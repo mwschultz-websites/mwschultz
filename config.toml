@@ -1,16 +1,14 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'Hugo Blog'
+title = 'Matt Schultz'
 
 [params]
-    homeText = "This is my Hugo blog."
-    dateFormat = "Jan 1, 2005"
+  homeText = "Website for Matt Schultz"
 
 [permalinks]
     blog = "/:filename/"
+    resume = "/:filename"
 
-    # See https://feathericons.com/
-# The value of pre is the icon name
 [menu]
   [[menu.main]]
     name = "Home"
@@ -18,15 +16,27 @@ title = 'Hugo Blog'
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "Blog"
+    name = "Resume"
     pre = "edit"
-    url = "/blog/"
-    weight = 2
-  [[menu.main]]
-    name = "Tags"
-    pre = "tag"
-    url = "/tags/"
+    url = "/resume/"
     weight = 3
-
-[taxonomies]
-  tag = "tags"
+  [[menu.main]]
+    name = "Contact"
+    pre = "mail"
+    url = "mailto:matt@mwschultz.com"
+    weight = 3
+  [[menu.main]]
+    name = "Github"
+    pre = "github"
+    url = "https://github.com/mwschultz"
+    weight = 3
+  [[menu.main]]
+    name = "LinkedIn"
+    pre = "linkedin"
+    url = "https://www.linkedin.com/in/mwschult/"
+    weight = 3
+  [[menu.main]]
+    name = "Resume (PDF)"
+    pre = "file-text"
+    url = "/resume.pdf"
+    weight = 3
