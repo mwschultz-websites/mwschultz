@@ -1,15 +1,12 @@
-{
-    "list": [
-       {
-          "name":"Hexo",
-          "url":"https://hexo.io/",
-          "desc":"A fast, simple & powerful blog framework"
-       },
-       {
-          "name":"Font Awesome",
-          "url":"http://fontawesome.io/",
-          "desc":"The iconic font and CSS toolkit"
-       }
-    ]
- }
- 
+[
+  {
+    "name": "North Carolina State University - Enterprise Application Services",
+    "link": "https://hexo.io/https://oit.ncsu.edu/about/units/eas/", 
+    "bullet_one": "Did ETL work"
+  },
+  {
+    "name": "Duke University",
+    "link": "http://fontawesome.io/",
+    "bullet_one": "Did Ruby work"
+  }
+]

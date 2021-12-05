@@ -1,6 +1,7 @@
 {{ define "main" }}
-
 <h1>{{ .Title }}</h1>
+{{ partial "experience.html" . }}
+{{ partial "skills.html" . }}
 {{ .Content }}
 </div>
 {{ end }}

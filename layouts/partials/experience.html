@@ -1,0 +1,17 @@
+<section id="skills">
+  <div class="my-auto" id="skills-content">
+    <h2 class="mb-5">Experience</h2>
+    {{ range $.Site.Data.experience }}
+    <ul>
+      <li class="list-inline-item">
+        <a href="{{.link}}">{{ .name }}</a>
+        <ul>
+            <li>
+                {{ .bullet_one }}
+            </li>
+        </ul>
+      </li>
+    </ul>
+    {{ end }}
+  </div>
+</section>
