@@ -1,70 +1,74 @@
 <style>
-    .container {
-      max-width: {{ .Site.Params.containerMaxWidth | default "800px" | safeCSS }};
+  .container {
+    max-width: {
+       {
+        .Site.Params.containerMaxWidth|default "800px"|safeCSS;
+      }
     }
-    #nav a {
-      font-weight: bold;
-      color: inherit;
-    }
-    #nav-border {
-      border-bottom: 1px solid #212529;
-    }
-    #main {
-      margin-top: 1em;
-      margin-bottom: 4em;
-    }
-    #home-jumbotron {
-      background-color: inherit;
-    }
-    .font-125 {
-      font-size: 125%;
-    }
-    .tag-btn {
-      margin-bottom: 0.3em;
-    }
-    img {
-      max-width: 100%;
-    }
+  }
+  #nav a {
+    font-weight: bold;
+    color: inherit;
+  }
+  #nav-border {
+    border-bottom: 1px solid #212529;
+  }
+  #main {
+    margin-top: 1em;
+    margin-bottom: 4em;
+  }
+  #home-jumbotron {
+    background-color: inherit;
+  }
+  .font-125 {
+    font-size: 125%;
+  }
+  .tag-btn {
+    margin-bottom: 0.3em;
+  }
+  img {
+    max-width: 100%;
+  }
 
-    .resume-header {
-      font-size: x-large;
-      margin-top: 20px;
-      text-decoration: underline;
-      font-weight: bold; 
-    }
+  .resume-header {
+    font-size: x-large;
+    margin-top: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+  }
 
-    .experience-date {
-      font-style: italic;
-      display: block;
-    }
+  .experience-date {
+    font-style: italic;
+    display: block;
+  }
 
-    .resume-minor-header {
-      font-size: large; 
-      font-weight: bold;
-      margin: 10px;
-    }
+  .resume-minor-header {
+    font-size: large;
+    font-weight: bold;
+    margin: 10px;
+  }
 
-    .experience-item {
-      font-weight: bold; 
-    }
+  .experience-item {
+    font-weight: bold;
+  }
 
-    .smaller-resume-item {
-      font-size: smaller;
-    }
-    .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: black;
-  color: white;
-  text-align: right;
-}
 
-.footer-text {
-  font-size: small;
-  padding-right: 10px;
-  max-height: 0.25rem;
+  .smaller-resume-item {
+    font-size: smaller;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: right;
+  }
 
-}
-    </style>
+  .footer-text {
+    font-size: small;
+    padding-right: 10px;
+    max-height: 0.25rem;
+  }
+</style>

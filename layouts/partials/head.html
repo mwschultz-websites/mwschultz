@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="{{ $css }}">
   {{ $title := print .Title " | " .Site.Title }}
   {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
   <title>{{ $title }}</title>
   {{ partial "style.html" . }}
 </head>

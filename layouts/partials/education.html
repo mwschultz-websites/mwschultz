@@ -1,0 +1,13 @@
+<section id="education">
+  <div class="resume-section" id="education-content">
+    <h2 class="resume-header">Education and Certifications</h2>
+    {{ range $.Site.Data.education }}
+    {{if isset . "institution"}}
+    <span class="experience-item">{{ .institution }}</span>, {{ .credential }}
+    {{ else }}
+    <span style="display: block">{{ .credential }} </span> 
+    {{ end }}
+    {{ end }}
+  </div>
+</section>
+
