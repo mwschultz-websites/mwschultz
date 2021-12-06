@@ -2,18 +2,16 @@
   {
     "grouping": "Languages/Frameworks",
     "tech": [
-      "Javascript",
-      "PHP",
-      "Ruby",
-      "Laravel",
-      "Ruby on Rails",
-      "jQuery",
-      "React"
+      "Java",
+      "JavaScript (jQuery and React/Redux)",
+      "PHP (Laravel)",
+      "Ruby (Rails)", 
+      "SQL (T-SQL)"
     ]
   },
   {
     "grouping": "Developer Tools",
-    "tech": ["JIRA", "git", "Docker", "VSCode", "Eclipse", "Postman"]
+    "tech": ["Docker", "git", "Heroku", "Jira", "Postman"]
   },
   {
     "grouping": "Data Management and Visualization",

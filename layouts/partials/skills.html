@@ -1,11 +1,11 @@
 <section id="skills">
-  <div class="my-auto" id="skills-content">
-    <h2 class="mb-5">Skills</h2>
+  <div class="resume-section" id="skills-content">
+    <h2 class="resume-header">Skills</h2>
     {{ range $.Site.Data.skills }}
-    <div><h4>{{ .grouping }}</h4></div>
+    <div class="resume-minor-header">{{ .grouping }}</div>
     {{ range .tech }}
     <ul style="line-height:15%">
-        <li>{{ . }}</li> 
+        <li class="smaller-resume-item">{{ . }}</li> 
     </ul>
     {{ end }} {{ end }}
   </div>

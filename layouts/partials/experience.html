@@ -1,18 +1,16 @@
-<section id="skills">
-  <div class="my-auto" id="skills-content">
-    <h2 class="mb-5">Experience</h2>
+<section id="experience">
+  <div class="resume-section" id="experience-content">
+    <h2 class="resume-header">Experience</h2>
     {{ range $.Site.Data.experience }}
     <ul>
-      <li class="list-inline-item">
-        {{ .title }}, <a href="{{.link}}">{{ .organization }}</a>
-        <ul>
-          <li>{{ .dates }}</li>
+      <li>
+        <span class="experience-item">{{ .title }}, <a href="{{.link}}">{{ .organization }}</a></span>
+        <span class="experience-date">{{ .dates }} </span>
           {{  range .bullet_points}}
           <ul>
-            <li>{{ . }}</li>
+            <li class = "smaller-resume-item">{{ . }}</li>
           </ul>
           {{ end }}
-        </ul>
       </li>
     </ul>
     {{ end }}
