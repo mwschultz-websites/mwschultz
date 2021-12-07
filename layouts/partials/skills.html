@@ -6,7 +6,8 @@
     {{ range .tech }}
     <ul style="line-height:15%">
         <li class="skill-item">{{ . }}
-        <i class="devicon-php-plain"></i></li>
+          {{ $name := lower (.) }}
+        <i class="devicon-{{ $name }}-plain"></i></li>
     </ul>
     {{ end }} {{ end }}
   </div>

@@ -3,9 +3,9 @@
     "grouping": "Languages/Frameworks",
     "tech": [
       "Java",
-      "JavaScript (jQuery and React/Redux)",
-      "PHP (Laravel)",
-      "Ruby (Rails)", 
+      "JavaScript",
+      "PHP",
+      "Ruby", 
       "SQL (T-SQL)"
     ]
   },
