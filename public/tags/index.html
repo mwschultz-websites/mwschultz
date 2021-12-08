@@ -7,36 +7,104 @@
   
   <link rel="stylesheet" href="/css/bootstrap.min.css">
   
+  <link rel="stylesheet" href="/css/devicon.min.css">
   
-  <title>Tags | Hugo Blog</title>
+  
+  <title>Tags | Matt Schultz</title>
   <style>
-    .container {
-      max-width: 700px;
+  .container {
+    max-width: {
+       {
+        .Site.Params.containerMaxWidth|default "800px""800px"|safeCSS;
+      }
     }
-    #nav a {
-      font-weight: bold;
-      color: inherit;
-    }
-    #nav-border {
-      border-bottom: 1px solid #212529;
-    }
-    #main {
-      margin-top: 1em;
-      margin-bottom: 4em;
-    }
-    #home-jumbotron {
-      background-color: inherit;
-    }
-    .font-125 {
-      font-size: 125%;
-    }
-    .tag-btn {
-      margin-bottom: 0.3em;
-    }
-    img {
-      max-width: 100%;
-    }
-    </style>
+  }
+  #nav a {
+    font-weight: bold;
+    color: inherit;
+  }
+  #nav-border {
+    border-bottom: 1px solid #212529;
+  }
+  #main {
+    margin-top: 1em;
+    margin-bottom: 2em;
+  }
+  #home-jumbotron {
+    background-color: inherit;
+  }
+  .font-125 {
+    font-size: 125%;
+  }
+  .tag-btn {
+    margin-bottom: 0.3em;
+  }
+  img {
+    max-width: 100%;
+  }
+
+  .resume-header {
+    font-size: x-large;
+    margin-top: 1em;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .index-text {
+    text-align: center;
+  }
+
+
+  .experience-date {
+    font-style: italic;
+    display: block;
+  }
+
+  .resume-minor-header {
+    font-size: large;
+    font-weight: bold;
+    margin: 0.1em;
+  }
+
+  .experience-item {
+    font-weight: bold;
+  }
+
+  .skill-item {
+    line-height: 0.3em;
+  }
+
+
+  .smaller-resume-item {
+    font-size: smaller;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: right;
+  }
+
+  .resume-icon {
+    font-size: large;
+    color: rgb(102, 9, 9);
+  }
+
+  .skill-framework-item {
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+  }
+
+  .footer-text {
+    font-size: small;
+    padding-right: 10px;
+    max-height: 0.25rem;
+  }
+</style>
+
 </head>
   <body>
     <div id="nav-border" class="container">
@@ -48,11 +116,23 @@
     
       
       
-      <a class="nav-link" href="/blog/"><i data-feather="edit"></i> Blog</a>
+      <a class="nav-link" href="mailto:matt@mwschultz.com"><i data-feather="mail"></i> Contact</a>
     
       
       
-      <a class="nav-link" href="/tags/"><i data-feather="tag"></i> Tags</a>
+      <a class="nav-link" href="https://github.com/mwschultz"><i data-feather="github"></i> Github</a>
+    
+      
+      
+      <a class="nav-link" href="https://www.linkedin.com/in/mwschult/"><i data-feather="linkedin"></i> LinkedIn</a>
+    
+      
+      
+      <a class="nav-link" href="/mws/"><i data-feather="edit"></i> Resume</a>
+    
+      
+      
+      <a class="nav-link" href="/files/resume.pdf"><i data-feather="file-text"></i> Resume (PDF)</a>
     
     </nav>
   </div>
@@ -61,30 +141,6 @@
 
 <h1>Tags</h1>
 
-
-<p>
-  <a class="btn btn-outline-dark font-125" href="http://example.org/tags/life/">
-    <span class="badge badge-dark">1</span> life
-  </a>
-</p>
-
-<p>
-  <a class="btn btn-outline-dark font-125" href="http://example.org/tags/poetry/">
-    <span class="badge badge-dark">3</span> poetry
-  </a>
-</p>
-
-<p>
-  <a class="btn btn-outline-dark font-125" href="http://example.org/tags/time/">
-    <span class="badge badge-dark">1</span> time
-  </a>
-</p>
-
-<p>
-  <a class="btn btn-outline-dark font-125" href="http://example.org/tags/trees/">
-    <span class="badge badge-dark">1</span> trees
-  </a>
-</p>
 
 
 </main>
@@ -95,5 +151,8 @@
   feather.replace();
 </script>
 
+    <div class="footer">
+    <p class="footer-text">Built using <a href="https://gohugo.io/">Hugo</a></p>
+  </div>
   </body>
 </html>
