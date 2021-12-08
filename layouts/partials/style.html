@@ -2,7 +2,7 @@
   .container {
     max-width: {
        {
-        .Site.Params.containerMaxWidth|default "800px"|safeCSS;
+        .Site.Params.containerMaxWidth|default "800px""800px"|safeCSS;
       }
     }
   }
@@ -32,10 +32,11 @@
 
   .resume-header {
     font-size: x-large;
-    margin-top: 20px;
+    margin-top: 1em;
     text-decoration: underline;
     font-weight: bold;
   }
+
 
   .experience-date {
     font-style: italic;
@@ -45,11 +46,15 @@
   .resume-minor-header {
     font-size: large;
     font-weight: bold;
-    margin: 10px;
+    margin: 0.1em;
   }
 
   .experience-item {
     font-weight: bold;
+  }
+
+  .skill-item {
+    line-height: 0.3em;
   }
 
 
@@ -71,9 +76,9 @@
     color: rgb(102, 9, 9);
   }
 
-  .skill-item {
-    margin-top: 5px;
-    margin-bottom: 5px;
+  .skill-framework-item {
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
   }
 
   .footer-text {

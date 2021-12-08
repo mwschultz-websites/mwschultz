@@ -45,12 +45,12 @@
         ]
       },
 
-      { "skill": "SQL",
-        "frameworks": 
-        [
+      {
+        "skill": "SQL",
+        "frameworks": [
           {
             "skill": "T-SQL",
-            "icon": "devicon-microsoftsqlserver-plain-wordmark"
+            "icon": "microsoftsqlserver"
           }
         ]
       }
@@ -72,6 +72,30 @@
   },
   {
     "grouping": "Data Management and Visualization",
-    "tech": [{ "skill": "SAS Data Integration Studio" }]
+    "tech": [
+      {
+        "skill": "ArcGIS"
+      },
+
+      {
+        "skill": "BusinessObjects"
+      },
+
+      {
+        "skill": "JasperReports"
+      },
+
+      {
+        "skill": "SAS Data Integration Studio"
+      },
+
+      {
+        "skill": "SAS Visual Analytics"
+      },
+
+      {
+        "skill": "Tableau"
+      }
+    ]
   }
 ]

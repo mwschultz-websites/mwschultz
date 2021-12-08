@@ -1,18 +1,19 @@
 <section id="skills">
-  <div class="resume-section" id="skills-content">
+  <div class>
     <h2 class="resume-header">Skills</h2>
     {{ range $.Site.Data.skills }}
     <div class="resume-minor-header">{{ .grouping }}</div>
     {{ range .tech }}
-    <ul style="line-height: 15%">
+    <ul class="skill-listing">
       <li class="skill-item">
-        {{ .skill }} {{ $name := lower (.icon) }}
+        {{ .skill }} {{ if isset . "icon" }} {{ $name := lower (.icon) }}
         <i class="devicon-{{ $name }}-plain resume-icon"></i>
-        {{ range .frameworks}}
+        {{ else }} {{ end }} {{ range .frameworks}}
         <ul>
-          <li class="skill-item">
-            {{ .skill }} {{ $name := lower (.icon) }}
+          <li class="skill-framework-item">
+            {{ .skill }} {{ if isset . "icon" }} {{ $name := lower (.icon) }}
             <i class="devicon-{{ $name }}-plain resume-icon"></i>
+            {{ else }} {{ end }}
           </li>
         </ul>
 
