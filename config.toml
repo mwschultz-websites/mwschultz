@@ -38,5 +38,5 @@ title = 'Matt Schultz'
   [[menu.main]]
     name = "Resume (PDF)"
     pre = "file-text"
-    url = "/resume.pdf"
+    url = "/files/resume.pdf"
     weight = 3
