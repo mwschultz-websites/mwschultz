@@ -2,19 +2,33 @@
   {
     "grouping": "Languages/Frameworks",
     "tech": [
-      "Java",
-      "JavaScript",
-      "PHP",
-      "Ruby", 
-      "SQL (T-SQL)"
+      { "skill": "Java", "icon": "java" },
+
+      { "skill": "JavaScript", "icon": "javascript" },
+
+      { "skill": "PHP", "icon": "php" },
+
+      { "skill": "Ruby", "icon": "ruby" },
+
+      { "skill": "SQL (T-SQL)", "icon": "microsoftsqlserver" }
     ]
   },
   {
     "grouping": "Developer Tools",
-    "tech": ["Docker", "git", "Heroku", "Jira", "Postman"]
+    "tech": [
+      { "skill": "Docker", "icon": "docker" },
+
+      { "skill": "git", "icon": "git" },
+
+      { "skill": "Heroku", "icon": "heroku" },
+
+      { "skill": "Jira", "icon": "jira" },
+
+      { "skill": "Postman" }
+    ]
   },
   {
     "grouping": "Data Management and Visualization",
-    "tech": ["SAS Data Integration Studio", "SAS Visual Analytics", "Tableau", "ArcGIS", "JasperReports", "BusinessObjects"]
+    "tech": [{ "skill": "SAS Data Integration Studio" }]
   }
 ]
