@@ -1,16 +1,59 @@
 [
   {
-    "grouping": "Languages/Frameworks",
+    "grouping": "Languages and Frameworks",
     "tech": [
       { "skill": "Java", "icon": "java" },
 
-      { "skill": "JavaScript", "icon": "javascript" },
+      {
+        "skill": "JavaScript",
+        "icon": "javascript",
 
-      { "skill": "PHP", "icon": "php" },
+        "frameworks": [
+          {
+            "skill": "jQuery",
+            "icon": "jquery"
+          },
 
-      { "skill": "Ruby", "icon": "ruby" },
+          {
+            "skill": "React",
+            "icon": "react"
+          }
+        ]
+      },
 
-      { "skill": "SQL (T-SQL)", "icon": "microsoftsqlserver" }
+      {
+        "skill": "PHP",
+        "icon": "php",
+
+        "frameworks": [
+          {
+            "skill": "Laravel",
+            "icon": "laravel"
+          }
+        ]
+      },
+
+      {
+        "skill": "Ruby",
+        "icon": "ruby",
+
+        "frameworks": [
+          {
+            "skill": "Ruby on Rails",
+            "icon": "rails"
+          }
+        ]
+      },
+
+      { "skill": "SQL",
+        "frameworks": 
+        [
+          {
+            "skill": "T-SQL",
+            "icon": "devicon-microsoftsqlserver-plain-wordmark"
+          }
+        ]
+      }
     ]
   },
   {

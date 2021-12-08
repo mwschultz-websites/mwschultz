@@ -4,10 +4,20 @@
     {{ range $.Site.Data.skills }}
     <div class="resume-minor-header">{{ .grouping }}</div>
     {{ range .tech }}
-    <ul style="line-height:15%">
-        <li class="skill-item">{{ .skill }}
-          {{ $name := lower (.icon) }}
-        <i class="devicon-{{ $name }}-plain resume-icon"></i></li>
+    <ul style="line-height: 15%">
+      <li class="skill-item">
+        {{ .skill }} {{ $name := lower (.icon) }}
+        <i class="devicon-{{ $name }}-plain resume-icon"></i>
+        {{ range .frameworks}}
+        <ul>
+          <li class="skill-item">
+            {{ .skill }} {{ $name := lower (.icon) }}
+            <i class="devicon-{{ $name }}-plain resume-icon"></i>
+          </li>
+        </ul>
+
+        {{ end }}
+      </li>
     </ul>
     {{ end }} {{ end }}
   </div>
