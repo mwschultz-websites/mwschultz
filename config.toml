@@ -6,7 +6,6 @@ title = 'Matt Schultz'
 
 
 [permalinks]
-    blog = "/:filename/"
     resume = "/:filename/"
 
 
