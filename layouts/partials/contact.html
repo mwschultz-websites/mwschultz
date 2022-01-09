@@ -1,0 +1,17 @@
+<section id="contact" class="resume-border">
+  <div class="resume-section" id="contact-content">
+    <h2 class="resume-header">Contact</h2>
+    {{ range $.Site.Data.contact }}
+    <ul>
+      <li>
+        E-mail: {{ .email }}
+      </li>
+      <li>
+        Website: {{ .website }}
+      </li>
+
+    </ul>
+
+    {{ end }}
+  </div>
+</section>

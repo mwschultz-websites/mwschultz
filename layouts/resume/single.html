@@ -1,5 +1,6 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
+<h1 class="resume-title">{{ .Title }}</h1>
+{{ partial "contact.html" . }}
 {{ partial "skills.html" . }}
 {{ partial "education.html" . }}
 {{ partial "experience.html" . }}
