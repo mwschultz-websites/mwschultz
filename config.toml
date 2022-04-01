@@ -21,11 +21,6 @@ title = 'Matt Schultz'
     url = "/mws/"
     weight = 3
   [[menu.main]]
-    name = "Contact"
-    pre = "mail"
-    url = "mailto:matt@mwschultz.com"
-    weight = 3
-  [[menu.main]]
     name = "Github"
     pre = "github"
     url = "https://github.com/mwschultz"
