@@ -1,11 +1,21 @@
 [
   {
+    "title": "Senior Developer",
+    "organization": "Duke University School of Medicine, Office of Information Systems",
+    "link": "https://medschool.duke.edu/research/research-support/research-support-offices/oasis",
+    "dates": "December 2022 - Current",
+    "bullet_points": [
+      "Build web services for tracking research effort across both the university and the health system.",
+      "Integrate the OpenShift platform into existing devops workflows for enhanced developer productivity and application reliability."
+    ]
+  },
+  {
     "title": "Developer",
     "organization": "North Carolina State University, Enterprise Application Services",
     "link": "https://oit.ncsu.edu/about/units/eas/",
-    "dates": "June 2020 - Current",
+    "dates": "June 2020 - December 2022",
     "bullet_points": [
-      "Develop custom enhancements and integrations for the university’s centralized research data management system, primarily using PHP and jQuery/Kendo UI.",
+      "Develop custom enhancements and integrations for the university’s centralized research data management system using PHP and jQuery.",
       "Set up ETL pipelines in SAS Data Integration Studio to capture enterprise data for operational work and reporting."
     ]
   },
@@ -42,7 +52,7 @@
     "title": "Research Associate",
     "organization": "TransAnalytics",
     "link": "https://transanalytics.com/",
-    "dates": "December 2010 - June 2012",
+    "dates": "December 2010 - December 2012",
     "bullet_points": [
       "Developed and maintained interfaces, queries, and reports in Access and Excel for analyzing traffic fatalities from a nationwide database."
     ]
