@@ -1,7 +1,7 @@
 [
   {
     "title": "Senior Developer",
-    "organization": "Duke University School of Medicine, Office of Information Systems",
+    "organization": "Duke University School of Medicine, Office of Academic Solutions and Information Systems",
     "link": "https://medschool.duke.edu/research/research-support/research-support-offices/oasis",
     "dates": "December 2022 - Current",
     "bullet_points": [
@@ -16,14 +16,14 @@
     "link": "https://oit.ncsu.edu/about/units/eas/",
     "dates": "June 2020 - December 2022",
     "bullet_points": [
-      "Designed tooling to migrate legacy data and enable ongoing data transfer from internally developed, bespoke applications into the university’s new, vendor-developed centralized research data management system.",
+      "Designed tooling to migrate legacy data and enable ongoing data transfer from internally-developed applications into the university’s new vendor-developed research data management system.",
       "Set up ETL pipelines in SAS Data Integration Studio to capture enterprise data for operational work and reporting.",
       "Retained as consultant to provide customized enhancements as additional modules of the research data management system are brought online."
     ]
   },
   {
     "title": "Developer",
-    "organization": "Duke University School of Medicine, Office of Information Systems",
+    "organization": "Duke University School of Medicine, Office of Academic Solutions and Information Systems",
     "link": "https://medschool.duke.edu/research/research-support/research-support-offices/oasis",
     "dates": "July 2018 - June 2020",
     "bullet_points": [
@@ -32,13 +32,13 @@
     ]
   },
   {
-    "title": "Report Writer / Data Analyst",
-    "organization": "Duke University School of Medicine, Office of Information Systems",
+    "title": "Data Analyst",
+    "organization": "Duke University School of Medicine, Office of Academic Solutions and Information Systems",
     "link": "https://medschool.duke.edu/research/research-support/research-support-offices/oasis",
     "dates": "June 2015 - July 2018",
     "bullet_points": [
       "Collected user requirements and built reports and dashboards to track research operations data using BusinessObjects, JasperReports, and Tableau.",
-      "Served as technical lead on the successful, multi-year migration of existing enrollment data out of Duke's Epic instance and into a single clinical trial management application."
+      "Served as technical lead on the successful multi-year migration of existing enrollment data out of Duke's Epic instance and into a single clinical trial management application."
     ]
   },
   {
