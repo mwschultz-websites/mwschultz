@@ -1,43 +1,51 @@
 <style>
   .container {
     max-width: {
-       {
-        .Site.Params.containerMaxWidth|default "800px""800px"|safeCSS;
+        {
+        .Site.Params.containerMaxWidth|default "800px" "800px" |safeCSS;
       }
     }
   }
+
   #nav a {
     font-weight: bold;
     color: inherit;
   }
+
   #nav-border {
     border-bottom: 1px solid #212529;
   }
+
   #main {
     margin-top: 1em;
     margin-bottom: 2em;
   }
+
   #home-jumbotron {
     background-color: inherit;
   }
+
   .font-125 {
     font-size: 125%;
   }
+
   .tag-btn {
     margin-bottom: 0.3em;
   }
+
   img {
     max-width: 100%;
   }
 
   .resume-header {
     margin-top: 0.5em;
-    font-size: x-large;
+    font-size: xx-large;
     text-decoration: underline;
     font-weight: bold;
   }
-  
-  .index-text, .resume-title {
+
+  .index-text,
+  .resume-title {
     text-align: center;
   }
 
@@ -48,7 +56,7 @@
   }
 
   .resume-minor-header {
-    font-size: large;
+    font-size: x-large;
     font-weight: bold;
     margin: 0.1em;
   }
@@ -58,13 +66,14 @@
   }
 
   .skill-item {
-    line-height: 0.3em;
+    line-height: 0.5em;
   }
 
 
   .smaller-resume-item {
-    font-size: smaller;
+    font-size: medium;
   }
+
   .footer {
     position: fixed;
     left: 0;

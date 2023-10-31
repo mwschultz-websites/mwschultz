@@ -29,43 +29,51 @@
   <style>
   .container {
     max-width: {
-       {
-        .Site.Params.containerMaxWidth|default "800px""800px"|safeCSS;
+        {
+        .Site.Params.containerMaxWidth|default "800px" "800px" |safeCSS;
       }
     }
   }
+
   #nav a {
     font-weight: bold;
     color: inherit;
   }
+
   #nav-border {
     border-bottom: 1px solid #212529;
   }
+
   #main {
     margin-top: 1em;
     margin-bottom: 2em;
   }
+
   #home-jumbotron {
     background-color: inherit;
   }
+
   .font-125 {
     font-size: 125%;
   }
+
   .tag-btn {
     margin-bottom: 0.3em;
   }
+
   img {
     max-width: 100%;
   }
 
   .resume-header {
     margin-top: 0.5em;
-    font-size: x-large;
+    font-size: xx-large;
     text-decoration: underline;
     font-weight: bold;
   }
-  
-  .index-text, .resume-title {
+
+  .index-text,
+  .resume-title {
     text-align: center;
   }
 
@@ -76,7 +84,7 @@
   }
 
   .resume-minor-header {
-    font-size: large;
+    font-size: x-large;
     font-weight: bold;
     margin: 0.1em;
   }
@@ -86,13 +94,14 @@
   }
 
   .skill-item {
-    line-height: 0.3em;
+    line-height: 0.5em;
   }
 
 
   .smaller-resume-item {
-    font-size: smaller;
+    font-size: medium;
   }
+
   .footer {
     position: fixed;
     left: 0;
@@ -119,7 +128,6 @@
     max-height: 0.25rem;
   }
 </style>
-
 </head>
 
   <body>
@@ -173,7 +181,7 @@
   <div class>
     <h2 class="resume-header">Skills</h2>
     
-    <div class="resume-minor-header">Languages and Frameworks</div>
+    <div class="resume-minor-header">Languages, Libraries &amp; Frameworks</div>
     
     <ul class="skill-listing">
       <li class="skill-item">
@@ -201,6 +209,15 @@
           <li class="skill-framework-item">
             React  
             <i class="devicon-react-plain resume-icon"></i>
+            
+          </li>
+        </ul>
+
+        
+        <ul>
+          <li class="skill-framework-item">
+            Redux  
+            <i class="devicon-redux-plain resume-icon"></i>
             
           </li>
         </ul>
@@ -286,6 +303,14 @@
     
     <ul class="skill-listing">
       <li class="skill-item">
+        Kubernetes  
+        <i class="devicon-kubernetes-plain resume-icon"></i>
+         
+      </li>
+    </ul>
+    
+    <ul class="skill-listing">
+      <li class="skill-item">
         Jira  
         <i class="devicon-jira-plain resume-icon"></i>
          
@@ -298,7 +323,7 @@
       </li>
     </ul>
      
-    <div class="resume-minor-header">Data Management and Visualization</div>
+    <div class="resume-minor-header">Business Intelligence and Visualization</div>
     
     <ul class="skill-listing">
       <li class="skill-item">
@@ -371,11 +396,15 @@
         <span class="experience-date">December 2022 - Current </span>
           
           <ul>
-            <li class = "smaller-resume-item">Build web services for tracking research effort across both the university and the health system</li>
+            <li class = "smaller-resume-item">Build web services for tracking research effort across both the university and the health system.</li>
           </ul>
           
           <ul>
-            <li class = "smaller-resume-item">Integrate the OpenShift platform into existing devops workflows for enhanced developer productivity and application reliability</li>
+            <li class = "smaller-resume-item">Integrate new tools, including GitLab CI/CD and the OpenShift platform, into existing devops workflows for enhanced developer productivity and application reliability.</li>
+          </ul>
+          
+          <ul>
+            <li class = "smaller-resume-item">Onboard and mentor junior developers.</li>
           </ul>
           
       </li>
@@ -387,11 +416,15 @@
         <span class="experience-date">June 2020 - December 2022 </span>
           
           <ul>
-            <li class = "smaller-resume-item">Develop custom enhancements and integrations for the university’s centralized research data management system using PHP and jQuery.</li>
+            <li class = "smaller-resume-item">Designed tooling to migrate legacy data and enable ongoing data transfer from internally developed, bespoke applications into the university’s new, vendor-developed centralized research data management system.</li>
           </ul>
           
           <ul>
             <li class = "smaller-resume-item">Set up ETL pipelines in SAS Data Integration Studio to capture enterprise data for operational work and reporting.</li>
+          </ul>
+          
+          <ul>
+            <li class = "smaller-resume-item">Retained as consultant to provide customized enhancements as additional modules of the research data management system are brought online.</li>
           </ul>
           
       </li>
@@ -466,7 +499,6 @@
 </script>
 
     <div class="footer">
-    <p class="footer-text">Built using <a href="https://gohugo.io/">Hugo</a></p>
-  </div>
+</div>
   </body>
 </html>

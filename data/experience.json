@@ -6,7 +6,8 @@
     "dates": "December 2022 - Current",
     "bullet_points": [
       "Build web services for tracking research effort across both the university and the health system.",
-      "Integrate the OpenShift platform into existing devops workflows for enhanced developer productivity and application reliability."
+      "Integrate new tools, including GitLab CI/CD and the OpenShift platform, into existing devops workflows for enhanced developer productivity and application reliability.",
+      "Onboard and mentor junior developers."
     ]
   },
   {
@@ -15,8 +16,9 @@
     "link": "https://oit.ncsu.edu/about/units/eas/",
     "dates": "June 2020 - December 2022",
     "bullet_points": [
-      "Develop custom enhancements and integrations for the university’s centralized research data management system using PHP and jQuery.",
-      "Set up ETL pipelines in SAS Data Integration Studio to capture enterprise data for operational work and reporting."
+      "Designed migration tools that successfully migrated legacy data and enabled ongoing transfer from internally-developed, bespoke applications into the university’s new, vendor-developed centralized research data management system.",
+      "Set up ETL pipelines in SAS Data Integration Studio to capture enterprise data for operational work and reporting.",
+      "Retained as consultant to provide customized enhancements as additional modules of the research data management system are brought online."
     ]
   },
   {
