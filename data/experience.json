@@ -1,17 +1,29 @@
 [
   {
-    "title": "Developer",
-    "organization": "North Carolina State University, Enterprise Application Services",
-    "link": "https://oit.ncsu.edu/about/units/eas/",
-    "dates": "June 2020 - Current",
+    "title": "Senior Developer",
+    "organization": "Duke University School of Medicine, Office of Academic Solutions and Information Systems",
+    "link": "https://medschool.duke.edu/research/research-support/research-support-offices/oasis",
+    "dates": "December 2022 - Current",
     "bullet_points": [
-      "Develop custom enhancements and integrations for the university’s centralized research data management system, primarily using PHP and jQuery/Kendo UI.",
-      "Set up ETL pipelines in SAS Data Integration Studio to capture enterprise data for operational work and reporting."
+      "Build web services for tracking research effort across both the university and the health system.",
+      "Integrate new tools, including GitLab CI/CD and the OpenShift platform, into existing devops workflows for enhanced developer productivity and application reliability.",
+      "Onboard and mentor junior developers."
     ]
   },
   {
     "title": "Developer",
-    "organization": "Duke University School of Medicine, Office of Information Systems",
+    "organization": "North Carolina State University, Enterprise Application Services",
+    "link": "https://oit.ncsu.edu/about/units/eas/",
+    "dates": "June 2020 - December 2022",
+    "bullet_points": [
+      "Designed tooling to migrate legacy data and enable ongoing data transfer from internally-developed applications into the university’s new vendor-developed research data management system.",
+      "Set up ETL pipelines in SAS Data Integration Studio to capture enterprise data for operational work and reporting.",
+      "Retained as consultant to provide customized enhancements as additional modules of the research data management system are brought online."
+    ]
+  },
+  {
+    "title": "Developer",
+    "organization": "Duke University School of Medicine, Office of Academic Solutions and Information Systems",
     "link": "https://medschool.duke.edu/research/research-support/research-support-offices/oasis",
     "dates": "July 2018 - June 2020",
     "bullet_points": [
@@ -20,13 +32,13 @@
     ]
   },
   {
-    "title": "Report Writer / Data Analyst",
-    "organization": "Duke University School of Medicine, Office of Information Systems",
+    "title": "Data Analyst",
+    "organization": "Duke University School of Medicine, Office of Academic Solutions and Information Systems",
     "link": "https://medschool.duke.edu/research/research-support/research-support-offices/oasis",
     "dates": "June 2015 - July 2018",
     "bullet_points": [
       "Collected user requirements and built reports and dashboards to track research operations data using BusinessObjects, JasperReports, and Tableau.",
-      "Served as technical lead on the successful, multi-year migration of existing enrollment data out of Duke's Epic instance and into a single clinical trial management application."
+      "Served as technical lead on the successful multi-year migration of existing enrollment data out of Duke's Epic instance and into a single clinical trial management application."
     ]
   },
   {
@@ -42,7 +54,7 @@
     "title": "Research Associate",
     "organization": "TransAnalytics",
     "link": "https://transanalytics.com/",
-    "dates": "December 2010 - June 2012",
+    "dates": "December 2010 - December 2012",
     "bullet_points": [
       "Developed and maintained interfaces, queries, and reports in Access and Excel for analyzing traffic fatalities from a nationwide database."
     ]

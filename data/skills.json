@@ -1,6 +1,6 @@
 [
   {
-    "grouping": "Languages and Frameworks",
+    "grouping": "Languages, Libraries & Frameworks",
     "tech": [
       { "skill": "Java", "icon": "java" },
 
@@ -17,6 +17,11 @@
           {
             "skill": "React",
             "icon": "react"
+          },
+
+          {
+            "skill": "Redux",
+            "icon": "redux"
           }
         ]
       },
@@ -65,13 +70,15 @@
 
       { "skill": "Heroku", "icon": "heroku" },
 
+      { "skill": "Kubernetes", "icon": "kubernetes" },
+
       { "skill": "Jira", "icon": "jira" },
 
       { "skill": "Postman" }
     ]
   },
   {
-    "grouping": "Data Management and Visualization",
+    "grouping": "Business Intelligence and Visualization",
     "tech": [
       {
         "skill": "ArcGIS"
