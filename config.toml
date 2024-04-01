@@ -35,3 +35,8 @@ title = 'Matt Schultz'
     pre = "file-text"
     url = "/files/resume.pdf"
     weight = 3
+  [[menu.main]]
+    name = "Shiny App (Demo)"
+    pre = "zap"
+    url = "https://mwschultz.shinyapps.io/energy_map/"
+    weight = 3
