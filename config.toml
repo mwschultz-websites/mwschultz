@@ -37,7 +37,7 @@ title = 'Matt Schultz'
     url = "/files/resume.pdf"
     weight = 4
   [[menu.main]]
-    name = "Example Apps"
+    name = "Example Apps (Portfolio)"
     pre = "zap"
     url = "/folio/"
     weight = 6

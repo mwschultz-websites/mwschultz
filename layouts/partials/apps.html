@@ -1,0 +1,24 @@
+<section id="skills" class="resume-border">
+  <div class>
+    {{ range $.Site.Data.apps }}
+    <div class="resume-minor-header"><a href="{{.link}}">{{ .title }}</a></div>
+    <ul class="skill-listing">
+      <li class="app-item">
+        Description: {{ .description }}
+      </li>
+      <li class="app-item">
+        Github: {{ .github }}
+      </li>
+      <li class="app-item">
+        Technologies Used:
+      </li>
+      {{ range .technologies}}
+      <ul>
+        <li class="smaller-app-item">{{ . }}</li>
+      </ul>
+      {{ end }}
+      </li>
+    </ul>
+    {{ end }}
+  </div>
+</section>
