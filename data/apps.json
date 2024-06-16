@@ -4,8 +4,7 @@
     "link": "https://mwschultz.shinyapps.io/energy_map/",
     "description": "A Shiny app that displays historical energy price data, sourced from the U.S. Energy Information Association.",
     "github": "Github: link",
-    "technologies": ["R (Shiny)", 
-    "Shiny.io for hosting and security"]
+    "technologies": ["Stuff"]
   },
   {
     "title": "Private Schools",
@@ -13,12 +12,7 @@
     "description": "A Ruby on Rails API to display all private schools in North Carolina, sourced from the North Carolina Department of Education listing.",
     "github": "link",
     "technologies": [
-      "Ruby (Ruby On Rails)",
-      "Swagger for API documentation",
-      "Postgres",
-      "Docker",
-      "Render.com for hosting",
-      "OAuth for security"
+      "Stuff"
     ]
   }
 ]
