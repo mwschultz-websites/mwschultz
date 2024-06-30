@@ -39,5 +39,5 @@ title = 'Matt Schultz'
   [[menu.main]]
     name = "Example Apps (Portfolio)"
     pre = "zap"
-    url = "/folio/"
+    url = "/portfolio/"
     weight = 6

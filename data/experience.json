@@ -1,9 +1,21 @@
 [
+
+  {
+    "title": "Senior Systems Analyst",
+    "organization": "ElectriCities of NC",
+    "link": "https://www.electricities.com",
+    "dates": "May 2024 - Current",
+    "bullet_points": [
+      "Automate data collection to improve auditing of municipalities' electrical utility billing systems.",
+      "Serve as liaison between municipalities and commercial software"
+
+    ]
+  }, 
   {
     "title": "Senior Developer",
     "organization": "Duke University School of Medicine, Office of Academic Solutions and Information Systems",
     "link": "https://medschool.duke.edu/research/research-support/research-support-offices/oasis",
-    "dates": "December 2022 - Current",
+    "dates": "December 2022 - May 2024",
     "bullet_points": [
       "Build web services for tracking research effort across both the university and the health system.",
       "Integrate new tools, including GitLab CI/CD and the OpenShift platform, into existing devops workflows for enhanced developer productivity and application reliability.",
