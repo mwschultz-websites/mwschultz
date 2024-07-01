@@ -7,6 +7,7 @@ title = 'Matt Schultz'
 
 [permalinks]
     resume = "/:filename/"
+    portfolio = "/:filename/"
 
 
 [menu]
@@ -24,19 +25,19 @@ title = 'Matt Schultz'
     name = "Github"
     pre = "github"
     url = "https://github.com/mwschultz"
-    weight = 3
+    weight = 2
   [[menu.main]]
     name = "LinkedIn"
     pre = "linkedin"
     url = "https://www.linkedin.com/in/mwschult/"
-    weight = 3
+    weight = 5
   [[menu.main]]
     name = "Resume (PDF)"
     pre = "file-text"
     url = "/files/resume.pdf"
-    weight = 3
+    weight = 4
   [[menu.main]]
-    name = "Shiny App (Demo)"
+    name = "Example Apps"
     pre = "zap"
-    url = "https://mwschultz.shinyapps.io/energy_map/"
-    weight = 3
+    url = "/portfolio/"
+    weight = 6

@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Energy Prices",
+    "link": "https://mwschultz.shinyapps.io/energy_map/",
+    "description": "A Shiny app that displays historical energy price data, sourced from the U.S. Energy Information Association.",
+    "technologies": ["R (Shiny)", "Shiny.io (hosting)"]
+  },
+  {
+    "title": "Personal website",
+    "link": "https://mwschultz.com",
+    "description": "This website, my personal site.",
+    "technologies": [
+      "Hugo", 
+      "Netlify (hosting)"
+    ]
+  }
+]
