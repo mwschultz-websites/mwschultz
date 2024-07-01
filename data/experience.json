@@ -7,7 +7,7 @@
     "dates": "May 2024 - Current",
     "bullet_points": [
       "Automate data collection to improve auditing of municipalities' electrical utility billing systems.",
-      "Serve as liaison between municipalities and commercial software"
+      "Serve as liaison between municipalities and commercial software vendors."
 
     ]
   }, 
@@ -17,9 +17,9 @@
     "link": "https://medschool.duke.edu/research/research-support/research-support-offices/oasis",
     "dates": "December 2022 - May 2024",
     "bullet_points": [
-      "Build web services for tracking research effort across both the university and the health system.",
-      "Integrate new tools, including GitLab CI/CD and the OpenShift platform, into existing devops workflows for enhanced developer productivity and application reliability.",
-      "Onboard and mentor junior developers."
+      "Built web services for tracking research effort across both the university and the health system.",
+      "Integrated new tools, including GitLab CI/CD and the OpenShift platform, into existing devops workflows for enhanced developer productivity and application reliability.",
+      "Onboarded and mentored junior developers."
     ]
   },
   {
