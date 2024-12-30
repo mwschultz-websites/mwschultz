@@ -5,18 +5,7 @@
     "description": "A Shiny app that displays historical energy price data, sourced from the <a href='https://www.eia.gov/'>U.S. Energy Information Association.</a>",
     "technologies": ["R (Shiny)", "Shiny.io (hosting)"]
   },
-  {
-    "title": "NC Private Schools",
-    "link": "https://ncprivateschools.netlify.app/",
-    "description": "A listing of private schools in North Carolina, based on data from the <a href='https://www.doa.nc.gov/divisions/non-public-education/private-schools'>NC Department of Administration.</a>",
-    "technologies": [
-      "Vue.js (front-end)",
-      "Ruby on Rails (back-end)", 
-      "PostgreSQL (database)",
-      "Netlify (Vue.js hosting)",
-      "Render (Rails hosting and database)"
-    ]
-  },
+
   {
     "title": "Personal website",
     "link": "https://mwschultz.com",
