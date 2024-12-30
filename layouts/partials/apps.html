@@ -4,7 +4,7 @@
     <div class="resume-minor-header"><a href="{{.link}}">{{ .title }}</a></div>
     <ul class="skill-listing">
       <li class="app-item">
-        Description: {{ .description }}
+        Description: {{ .description | safeHTML}}
       </li>
       <li class="app-item">
         Technologies Used:
