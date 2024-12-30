@@ -8,7 +8,7 @@
   {
     "title": "NC Private Schools",
     "link": "https://ncprivateschools.netlify.app/",
-    "description": "A listing of private schools in North Carolina, based on data from <a href='https://www.doa.nc.gov/divisions/non-public-education/private-schools'>NC Department of Administration.</a>",
+    "description": "A listing of private schools in North Carolina, based on data from the <a href='https://www.doa.nc.gov/divisions/non-public-education/private-schools'>NC Department of Administration.</a>",
     "technologies": [
       "Vue.js (front-end)",
       "Ruby on Rails (back-end)", 
