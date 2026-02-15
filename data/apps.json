@@ -3,16 +3,20 @@
     "title": "Energy Prices",
     "link": "https://mwschultz.shinyapps.io/energy_map/",
     "description": "A Shiny app that displays historical energy price data, sourced from the <a href='https://www.eia.gov/'>U.S. Energy Information Association.</a>",
-    "technologies": ["R (Shiny)", "Shiny.io (hosting)"]
+    "technologies": ["R (Shiny)", "Shiny.io (deployment and hosting)"]
   },
 
   {
-    "title": "Personal website",
-    "link": "https://mwschultz.com",
-    "description": "This website, my personal site.",
+    "title": "Site Tracker",
+    "link": "https://sitetrackermws.netlify.app/",
+    "description": "A demo pipeline management tool for site acquisition.",
     "technologies": [
-      "Hugo", 
-      "Netlify (hosting)"
+      "Claude Code (AI Agent)",
+      "React/Vite/TypeScript/Tailwind CSS (Frontend)",
+      "Python FastAPI (Backend)",
+      "PostgreSQL (Database)",
+      "Netlify (Frontend deployment and hosting)",
+      "Render (Backend deployment and hosting)"
     ]
   }
 ]
