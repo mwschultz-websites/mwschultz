@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/</loc>
+    <loc>//localhost:61697/</loc>
     <lastmod>2021-12-04T13:05:31-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/mws/</loc>
+    <loc>//localhost:61697/mws/</loc>
     <lastmod>2021-12-04T13:05:31-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>//localhost:61697/categories/</loc>
   </url><url>
-    <loc>//localhost:1313/portfolio/</loc>
+    <loc>//localhost:61697/portfolio/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>//localhost:61697/tags/</loc>
   </url>
 </urlset>

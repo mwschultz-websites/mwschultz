@@ -2,7 +2,7 @@
   {
     "grouping": "Languages, Libraries & Frameworks",
     "tech": [
-      { "skill": "Java", "icon": "java" },
+      { "skill": "Python", "icon": "python" },
 
       {
         "skill": "JavaScript",
@@ -74,11 +74,11 @@
 
       { "skill": "Jira", "icon": "jira" },
 
-      { "skill": "Postman" }
+      { "skill": "GitHub Actions", "icon": "githubactions" }
     ]
   },
   {
-    "grouping": "Business Intelligence and Visualization",
+    "grouping": "Business Intelligence and Data Warehousing",
     "tech": [
       {
         "skill": "ArcGIS"
@@ -102,6 +102,10 @@
 
       {
         "skill": "SAS Visual Analytics"
+      },
+
+      {
+        "skill": "SQL Server Integration Services"
       },
 
       {

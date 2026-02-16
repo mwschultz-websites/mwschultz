@@ -1,16 +1,27 @@
 [
+  {
+    "title": "Data Integration Developer",
+    "organization": "Civic Federal Credit Union",
+    "link": "https://www.civicfcu.org/",
+    "dates": "March 2025 - Current",
+    "bullet_points": [
+      "Set up ETL pipelines for mortgage data following operational independence from State Employees' Credit Union and the transition to a new core banking system.",
+      "Build out data warehouse focused on analytical reporting from Fiserv DNA banking platform transactional data.",
+      "Improve speed and performance of existing data pipelines by optimizing SQL queries and implementing incremental data loading strategies."
+    ]
+  },
 
   {
     "title": "Senior Systems Analyst",
     "organization": "ElectriCities of NC",
     "link": "https://www.electricities.com",
-    "dates": "May 2024 - Current",
+    "dates": "May 2024 - March 2025",
     "bullet_points": [
-      "Automate data collection to improve auditing of municipalities' electrical utility billing systems.",
-      "Serve as liaison between municipalities and commercial software vendors."
-
+      "Automated data collection to improve auditing of municipalities' electrical utility billing systems.",
+      "Served as liaison between municipalities and commercial software vendors.",
+      "Assisted in monitoring and outreach efforts for municipalities' annual EIA Form 861 federal compliance reporting."
     ]
-  }, 
+  },
   {
     "title": "Senior Developer",
     "organization": "Duke University School of Medicine, Office of Academic Solutions and Information Systems",
@@ -28,8 +39,8 @@
     "link": "https://oit.ncsu.edu/leadership-and-units/enterprise-application-services/",
     "dates": "June 2020 - December 2022",
     "bullet_points": [
-      "Designed tooling to migrate legacy data and enable ongoing data transfer from internally-developed applications into the university’s new vendor-developed research data management system.",
-      "Set up ETL pipelines in SAS Data Integration Studio to capture enterprise data for operational work and reporting.",
+      "Designed tooling to migrate legacy data and enable ongoing data transfer from internally developed applications into the university’s new vendor-developed research data management system.",
+      "Build initial set of ETL pipelines in SAS Data Integration Studio to capture enterprise data for operational work and reporting, moving from a highly manual process to a series of automated and monitored jobs.",
       "Retained as consultant to provide customized enhancements as additional modules of the research data management system are brought online."
     ]
   },
@@ -49,7 +60,7 @@
     "link": "https://medschool.duke.edu/research/research-support/research-support-offices/oasis",
     "dates": "June 2015 - July 2018",
     "bullet_points": [
-      "Collected user requirements and built reports and dashboards to track research operations data using BusinessObjects, JasperReports, and Tableau.",
+      "Collected user requirements and built reports and dashboards to track research operations data using BusinessObjects and Tableau.",
       "Served as technical lead on the successful multi-year migration of existing enrollment data out of Duke's Epic instance and into a single clinical trial management application."
     ]
   },
@@ -68,7 +79,7 @@
     "link": "https://transanalytics.com/",
     "dates": "December 2010 - December 2012",
     "bullet_points": [
-      "Developed and maintained interfaces, queries, and reports in Access and Excel for analyzing traffic fatalities from a nationwide database."
+      "Developed and maintained interfaces, queries, and reports in Access and Excel for analyzing traffic fatalities from a nationwide geographic database."
     ]
   }
 ]
