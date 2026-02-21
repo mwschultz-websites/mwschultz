@@ -5,7 +5,7 @@
     "link": "https://www.civicfcu.org/",
     "dates": "March 2025 - Current",
     "bullet_points": [
-      "Set up ETL pipelines for mortgage data following operational independence from State Employees' Credit Union and the transition to a new core banking system.",
+      "Develop ETL pipelines for mortgage data following operational independence from State Employees' Credit Union and the transition to a new core banking system.",
       "Build out data warehouse focused on analytical reporting from Fiserv DNA banking platform transactional data.",
       "Improve speed and performance of existing data pipelines by optimizing SQL queries and implementing incremental data loading strategies."
     ]
