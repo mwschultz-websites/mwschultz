@@ -5,7 +5,7 @@
     "link": "https://www.civicfcu.org/",
     "dates": "March 2025 - Current",
     "bullet_points": [
-      "Set up ETL pipelines for mortgage data following operational independence from State Employees' Credit Union and the transition to a new core banking system.",
+      "Develop ETL pipelines for mortgage data following operational independence from State Employees' Credit Union and the transition to a new core banking system.",
       "Build out data warehouse focused on analytical reporting from Fiserv DNA banking platform transactional data.",
       "Improve speed and performance of existing data pipelines by optimizing SQL queries and implementing incremental data loading strategies."
     ]
@@ -19,7 +19,7 @@
     "bullet_points": [
       "Automated data collection to improve auditing of municipalities' electrical utility billing systems.",
       "Served as liaison between municipalities and commercial software vendors.",
-      "Assisted in monitoring and outreach efforts for municipalities' annual EIA Form 861 federal compliance reporting."
+      "Assisted in monitoring and outreach efforts for municipalities' annual Energy Information Administration (EIA) Form 861 federal compliance reporting."
     ]
   },
   {
@@ -45,23 +45,14 @@
     ]
   },
   {
-    "title": "Developer",
+    "title": "Data Analyst/Developer",
     "organization": "Duke University School of Medicine, Office of Academic Solutions and Information Systems",
     "link": "https://medschool.duke.edu/research/research-support/research-support-offices/oasis",
-    "dates": "July 2018 - June 2020",
+    "dates": "June 2015 - July 2020",
     "bullet_points": [
       "Built Ruby on Rails web services for data sourced from multiple Duke systems, including clinical trials, research finance, and conflict of interest.",
-      "Developed enhancements for Duke's proposal submission and award management applications, and MyResearchHome, a centralized web portal for the Duke research community, using Ruby on Rails and React."
-    ]
-  },
-  {
-    "title": "Data Analyst",
-    "organization": "Duke University School of Medicine, Office of Academic Solutions and Information Systems",
-    "link": "https://medschool.duke.edu/research/research-support/research-support-offices/oasis",
-    "dates": "June 2015 - July 2018",
-    "bullet_points": [
-      "Collected user requirements and built reports and dashboards to track research operations data using BusinessObjects and Tableau.",
-      "Served as technical lead on the successful multi-year migration of existing enrollment data out of Duke's Epic instance and into a single clinical trial management application."
+      "Served as technical lead on the successful multi-year migration of existing enrollment data out of Duke's Epic instance and into a single clinical trial management application.",
+      "Collected user requirements and built reports and dashboards to track research operations data using BusinessObjects and Tableau."
     ]
   },
   {
