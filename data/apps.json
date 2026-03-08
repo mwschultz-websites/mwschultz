@@ -17,7 +17,7 @@
       "PostgreSQL (Database)",
       "Netlify (Frontend deployment and hosting)",
       "Render (Backend deployment and hosting)",
-      "APIs: ESRI ArcGIS REST API (TIGERweb, NC OneMap Parcels), U.S. Census Bureau APIs, Overpass API (OpenStreetMap)"
+      "APIs: Esri ArcGIS REST API (TIGERweb, NC OneMap Parcels), U.S. Census Bureau APIs, Overpass API (OpenStreetMap)"
     ]
   },
 
