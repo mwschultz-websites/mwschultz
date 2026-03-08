@@ -9,7 +9,7 @@
   {
     "title": "Parcel Pulse",
     "link": "https://parcelpulsemws.netlify.app/",
-    "description": "A commercial real estate intelligence tool. Enter any US address to analyze demographics, competitive landscape, consumer spending potential, and, for North Carolina addresses, nearby parcels, including ownership, size, and valuation.",
+    "description": "A commercial real estate intelligence tool. Enter any US address to analyze demographics, competitive landscape, consumer spending potential, and, for North Carolina addresses, nearby parcels, including ownership, size, and valuation. Best viewed on desktop.",
     "technologies": [
       "Claude Code (AI Agent)",
       "React/Vite/TypeScript/Tailwind CSS (Frontend)",
